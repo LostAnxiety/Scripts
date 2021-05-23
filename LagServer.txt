@@ -1,0 +1,11 @@
+while true do
+workspace.Remote.TeamEvent:FireServer("Bright blue")
+ 
+for i = 10,500 do
+    for i,v in pairs(Workspace.Prison_ITEMS.clothes:GetChildren()) do
+ 
+lol = Workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+print("Epic script from PLG")
+end
+end
+end
