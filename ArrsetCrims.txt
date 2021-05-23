@@ -12,4 +12,3 @@ local i = 10
 end
 end
 Player.Character.HumanoidRootPart.CFrame = cpos
-Notify("Success", "Arrested all of the n00bs", "Cool!")
